@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Elige café, chocolate o leche y descubre panes del catálogo para acompañar tu bebida.">
+  <title>Encuentra tu combinación ideal · Dulce Tradición</title>
+  <link rel="stylesheet" href="assets/estilos.css">
+  <script src="assets/sitio.js" defer></script>
+  <script src="assets/actividades.js" defer></script>
+</head>
+<body class="pagina-interior" data-page="combinaciones">
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <nav class="subnav" aria-label="Navegación principal">
+    <a class="nav-brand" href="index.html">Dulce Tradición</a>
+    <div class="nav-links">
+      <a href="index.html">Inicio</a><a href="caja.html" >Tu caja</a><a href="reto.html" >Reto panadero</a><a href="combinaciones.html" aria-current="page">Combinaciones</a>
+    </div>
+  </nav>
+  <header class="page-hero">
+    <p class="eyebrow">Panadería Dulce Tradición</p>
+    <h1>Encuentra tu combinación ideal</h1>
+    <p class="lead">Cada bebida tiene su compañero favorito. Descubre una combinación para disfrutar tu próxima pausa.</p>
+  </header>
+  <main class="page-shell" id="contenido">
+    <section class="activity-panel" aria-labelledby="combinacion-titulo">
+  <p class="eyebrow">03 · Tu momento favorito</p>
+  <h2 id="combinacion-titulo">Primero, elige tu bebida</h2>
+  <p>¿Tarde de café, chocolate caliente o un vaso de leche? Prueba una opción y descubre tres panes para acompañarla.</p>
+  <noscript><p>Activa JavaScript para explorar las combinaciones. También puedes consultar <a href="index.html#acompanamientos">nuestras ideas para acompañar el pan</a>.</p></noscript>
+  <div id="bebida-selector" class="choice-group" role="group" aria-label="Elige una bebida" hidden>
+    <button class="choice is-selected" type="button" data-bebida="cafe" aria-pressed="true">Café</button>
+    <button class="choice" type="button" data-bebida="chocolate" aria-pressed="false">Chocolate caliente</button>
+    <button class="choice" type="button" data-bebida="leche" aria-pressed="false">Leche</button>
+  </div>
+  <div id="combinacion-resultado" class="result-panel" hidden>
+    <p id="bebida-descripcion" class="feedback" role="status" aria-live="polite"></p>
+    <div id="combinacion-panes" class="feature-grid"></div>
+    <a class="button" href="caja.html">Armar una caja con mis favoritos</a>
+  </div>
+</section>
+  </main>
+  <footer>
+    <p><strong>Panadería Dulce Tradición</strong></p>
+    <p>El sabor de nuestras tradiciones, en cada pieza.</p>
+    <p>Proyecto escolar de HTML · 2026</p>
+    <a href="index.html">Volver a la panadería</a>
+  </footer>
+</body>
+</html>

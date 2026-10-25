@@ -1,0 +1,6 @@
+# Archivos locales del sistema y del editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+*.zip

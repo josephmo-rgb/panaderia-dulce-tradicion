@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Elige tus panes favoritos y calcula el total de una caja con los precios de nuestro catálogo.">
+  <title>Arma tu caja de pan · Dulce Tradición</title>
+  <link rel="stylesheet" href="assets/estilos.css">
+  <script src="assets/sitio.js" defer></script>
+  <script src="assets/actividades.js" defer></script>
+</head>
+<body class="pagina-interior" data-page="caja">
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <nav class="subnav" aria-label="Navegación principal">
+    <a class="nav-brand" href="index.html">Dulce Tradición</a>
+    <div class="nav-links">
+      <a href="index.html">Inicio</a><a href="caja.html" aria-current="page">Tu caja</a><a href="reto.html" >Reto panadero</a><a href="combinaciones.html" >Combinaciones</a>
+    </div>
+  </nav>
+  <header class="page-hero">
+    <p class="eyebrow">Panadería Dulce Tradición</p>
+    <h1>Arma tu caja de pan</h1>
+    <p class="lead">Un poco de dulce, algo crujiente y mucho por compartir. Elige tus panes y calcula tu combinación.</p>
+  </header>
+  <main class="page-shell" id="contenido">
+    <section class="activity-panel" aria-labelledby="caja-titulo">
+  <p class="eyebrow">01 · Elige tus favoritos</p>
+  <h2 id="caja-titulo">Una caja a tu gusto</h2>
+  <p>Combina las variedades del catálogo y descubre cuánto costaría tu selección. Puedes elegir de 0 a 30 piezas por variedad.</p>
+  <noscript><p>Activa JavaScript para calcular el total de tu caja. Los precios por pieza siguen visibles.</p></noscript>
+  <form id="caja-form">
+    <div class="feature-grid"><article class="feature-card">
+  <h3>Concha tradicional</h3>
+  <p class="pill">$12 MXN por pieza</p>
+  <div class="counter"><label for="pan-0">Cantidad</label><input id="pan-0" type="number" min="0" max="30" step="1" value="0" inputmode="numeric" data-price="12" data-name="Concha tradicional" aria-label="Cantidad de Concha tradicional"></div>
+</article>
+<article class="feature-card">
+  <h3>Oreja crujiente</h3>
+  <p class="pill">$15 MXN por pieza</p>
+  <div class="counter"><label for="pan-1">Cantidad</label><input id="pan-1" type="number" min="0" max="30" step="1" value="0" inputmode="numeric" data-price="15" data-name="Oreja crujiente" aria-label="Cantidad de Oreja crujiente"></div>
+</article>
+<article class="feature-card">
+  <h3>Cuernito suave</h3>
+  <p class="pill">$12 MXN por pieza</p>
+  <div class="counter"><label for="pan-2">Cantidad</label><input id="pan-2" type="number" min="0" max="30" step="1" value="0" inputmode="numeric" data-price="12" data-name="Cuernito suave" aria-label="Cantidad de Cuernito suave"></div>
+</article>
+<article class="feature-card">
+  <h3>Bolillo clásico</h3>
+  <p class="pill">$4 MXN por pieza</p>
+  <div class="counter"><label for="pan-3">Cantidad</label><input id="pan-3" type="number" min="0" max="30" step="1" value="0" inputmode="numeric" data-price="4" data-name="Bolillo clásico" aria-label="Cantidad de Bolillo clásico"></div>
+</article>
+<article class="feature-card">
+  <h3>Dona irresistible</h3>
+  <p class="pill">$15 MXN por pieza</p>
+  <div class="counter"><label for="pan-4">Cantidad</label><input id="pan-4" type="number" min="0" max="30" step="1" value="0" inputmode="numeric" data-price="15" data-name="Dona irresistible" aria-label="Cantidad de Dona irresistible"></div>
+</article>
+<article class="feature-card">
+  <h3>Cuernito de mantequilla</h3>
+  <p class="pill">$16 MXN por pieza</p>
+  <div class="counter"><label for="pan-5">Cantidad</label><input id="pan-5" type="number" min="0" max="30" step="1" value="0" inputmode="numeric" data-price="16" data-name="Cuernito de mantequilla" aria-label="Cantidad de Cuernito de mantequilla"></div>
+</article>
+<article class="feature-card">
+  <h3>Pan de caja</h3>
+  <p class="pill">$35 MXN por pieza</p>
+  <div class="counter"><label for="pan-6">Cantidad</label><input id="pan-6" type="number" min="0" max="30" step="1" value="0" inputmode="numeric" data-price="35" data-name="Pan de caja" aria-label="Cantidad de Pan de caja"></div>
+</article>
+<article class="feature-card">
+  <h3>Bigote</h3>
+  <p class="pill">$14 MXN por pieza</p>
+  <div class="counter"><label for="pan-7">Cantidad</label><input id="pan-7" type="number" min="0" max="30" step="1" value="0" inputmode="numeric" data-price="14" data-name="Bigote" aria-label="Cantidad de Bigote"></div>
+</article>
+<article class="feature-card">
+  <h3>Dona de chocolate</h3>
+  <p class="pill">$18 MXN por pieza</p>
+  <div class="counter"><label for="pan-8">Cantidad</label><input id="pan-8" type="number" min="0" max="30" step="1" value="0" inputmode="numeric" data-price="18" data-name="Dona de chocolate" aria-label="Cantidad de Dona de chocolate"></div>
+</article>
+<article class="feature-card">
+  <h3>Baguette</h3>
+  <p class="pill">$28 MXN por pieza</p>
+  <div class="counter"><label for="pan-9">Cantidad</label><input id="pan-9" type="number" min="0" max="30" step="1" value="0" inputmode="numeric" data-price="28" data-name="Baguette" aria-label="Cantidad de Baguette"></div>
+</article>
+<article class="feature-card">
+  <h3>Polvorón</h3>
+  <p class="pill">$10 MXN por pieza</p>
+  <div class="counter"><label for="pan-10">Cantidad</label><input id="pan-10" type="number" min="0" max="30" step="1" value="0" inputmode="numeric" data-price="10" data-name="Polvorón" aria-label="Cantidad de Polvorón"></div>
+</article>
+<article class="feature-card">
+  <h3>Bigote de azúcar</h3>
+  <p class="pill">$14 MXN por pieza</p>
+  <div class="counter"><label for="pan-11">Cantidad</label><input id="pan-11" type="number" min="0" max="30" step="1" value="0" inputmode="numeric" data-price="14" data-name="Bigote de azúcar" aria-label="Cantidad de Bigote de azúcar"></div>
+</article>
+<article class="feature-card">
+  <h3>Roles de canela</h3>
+  <p class="pill">$20 MXN por pieza</p>
+  <div class="counter"><label for="pan-12">Cantidad</label><input id="pan-12" type="number" min="0" max="30" step="1" value="0" inputmode="numeric" data-price="20" data-name="Roles de canela" aria-label="Cantidad de Roles de canela"></div>
+</article>
+<article class="feature-card">
+  <h3>Empanada de piña</h3>
+  <p class="pill">$15 MXN por pieza</p>
+  <div class="counter"><label for="pan-13">Cantidad</label><input id="pan-13" type="number" min="0" max="30" step="1" value="0" inputmode="numeric" data-price="15" data-name="Empanada de piña" aria-label="Cantidad de Empanada de piña"></div>
+</article>
+<article class="feature-card">
+  <h3>Chocolatín</h3>
+  <p class="pill">$22 MXN por pieza</p>
+  <div class="counter"><label for="pan-14">Cantidad</label><input id="pan-14" type="number" min="0" max="30" step="1" value="0" inputmode="numeric" data-price="22" data-name="Chocolatín" aria-label="Cantidad de Chocolatín"></div>
+</article>
+<article class="feature-card">
+  <h3>Garibaldi</h3>
+  <p class="pill">$18 MXN por pieza</p>
+  <div class="counter"><label for="pan-15">Cantidad</label><input id="pan-15" type="number" min="0" max="30" step="1" value="0" inputmode="numeric" data-price="18" data-name="Garibaldi" aria-label="Cantidad de Garibaldi"></div>
+</article>
+<article class="feature-card">
+  <h3>Pan de elote</h3>
+  <p class="pill">$25 MXN por pieza</p>
+  <div class="counter"><label for="pan-16">Cantidad</label><input id="pan-16" type="number" min="0" max="30" step="1" value="0" inputmode="numeric" data-price="25" data-name="Pan de elote" aria-label="Cantidad de Pan de elote"></div>
+</article>
+<article class="feature-card">
+  <h3>Trenza dulce</h3>
+  <p class="pill">$18 MXN por pieza</p>
+  <div class="counter"><label for="pan-17">Cantidad</label><input id="pan-17" type="number" min="0" max="30" step="1" value="0" inputmode="numeric" data-price="18" data-name="Trenza dulce" aria-label="Cantidad de Trenza dulce"></div>
+</article>
+<article class="feature-card">
+  <h3>Concha de chocolate</h3>
+  <p class="pill">$14 MXN por pieza</p>
+  <div class="counter"><label for="pan-18">Cantidad</label><input id="pan-18" type="number" min="0" max="30" step="1" value="0" inputmode="numeric" data-price="14" data-name="Concha de chocolate" aria-label="Cantidad de Concha de chocolate"></div>
+</article>
+<article class="feature-card">
+  <h3>Pan de nuez</h3>
+  <p class="pill">$22 MXN por pieza</p>
+  <div class="counter"><label for="pan-19">Cantidad</label><input id="pan-19" type="number" min="0" max="30" step="1" value="0" inputmode="numeric" data-price="22" data-name="Pan de nuez" aria-label="Cantidad de Pan de nuez"></div>
+</article></div>
+    <div class="total-panel">
+      <div aria-live="polite" aria-atomic="true"><p id="caja-cantidad">0 piezas en tu caja</p><h3>Total estimado: <output id="caja-total">$0 MXN</output></h3></div>
+      <p class="muted">Simulador con los precios de nuestro catálogo. Aquí puedes explorar tu selección; no se envía un pedido.</p>
+      <button class="button secondary" type="reset">Vaciar caja</button>
+    </div>
+  </form>
+</section>
+  </main>
+  <footer>
+    <p><strong>Panadería Dulce Tradición</strong></p>
+    <p>El sabor de nuestras tradiciones, en cada pieza.</p>
+    <p>Proyecto escolar de HTML · 2026</p>
+    <a href="index.html">Volver a la panadería</a>
+  </footer>
+</body>
+</html>
